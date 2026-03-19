@@ -1,0 +1,991 @@
+---
+  menu:
+      logos:
+        0:
+      bg:
+        0:
+          name: menu_bg
+      tracks:
+        0:
+          name: sovidol
+      
+          
+          
+  scenarios: 
+    day1: text/day1.txt
+    day1_1: text/day1_1.txt
+    day2: text/day_2.txt
+    day3: text/day3.txt
+    day4: text/day4.txt
+    day4_1: text/day_4_1.txt
+    bad: text/bad.txt
+    good: text/good.txt
+    day5: text/day5.txt
+    day6: text/day6.txt
+    
+           
+        
+     
+  cg:
+      ris_1: cg/eat_full_2.jpg 
+      manka: cg/day2_manka.jpg 
+      mocoron: cg/day2_noodles.jpg
+      boat: cg/d5_boat.jpg
+      gay: cg/d4_el_wash.jpg
+      lavka: cg/d6_un_evening_3_7dl.jpg
+      shahed: cg/d6_un_evening_2.jpg
+      pizdec: cg/sot_d8_prikol.jpg
+      portal: cg/bdz008.jpg
+      buspozd: cg/d1_pozdbus.jpg
+      lurivel: cg/d1_luri.png
+      lurivellit: cg/d1_luri_litvin.png
+      memdin: cg/d1_memdinning.png
+      ukikodin: cg/d1_ukiko.png
+      ukikodinwon: cg/d1_ukiko_wonder.png
+      nachalo: cg/nachalo.jpg
+      adik: cg/d1_adidas.jpg
+      camel: cg/d1_cameliya.png
+      kirstag: cg/d3_kirustage.png
+      kirstagv: cg/d3_kirustageva.png
+      d3cook: cg/d3_cook.png
+      d3cookfin: cg/d3_cookfin.png
+      d3stagepi: cg/d3_stagepio.png
+      d3smok: cg/d3_kirusmok.png
+      d3porn: cg/d3_pornushka.jpg
+      
+      
+  
+    
+  characters:
+        
+                    
+        adik:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0 
+              parts:
+                body: sprites/ai/adidas.png
+                
+                   
+                
+                
+        ukiko:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0
+              parts:
+                body: sprites/ai/ukiko.png
+                
+                    
+                    
+        majimaK:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0
+              parts:
+                body: sprites/ai/majimaknife.png
+                
+                    
+        pchan:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0
+              parts:
+                body: sprites/ai/pchan.png
+                
+                    
+        vanya:            
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0 
+              parts:
+                body: sprites/ai/vanya.png
+                
+                
+        veter:
+            positions:
+                center: 0 0
+                
+            default: alisa_kurtka
+        
+            poses:
+                alisa_kurtka:
+                    body: sprites/ai/veteran.png
+                    
+        luri:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0
+              parts:
+                body: sprites/ai/luri.png
+                        
+               
+                
+        
+                
+        igor:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0
+              parts:
+                body: sprites/ai/igor.png
+                
+                    
+        luriB:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0
+              parts:
+                body: sprites/ai/luriB.png
+                
+            
+            
+                    
+        tanos:
+          poses:
+            odin:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0
+              parts:
+                body: sprites/ai/tanos.png
+                
+                    
+                
+        won:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0
+              parts:
+                body: sprites/ai/won.png
+                
+                    
+        pozd:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0
+              parts:
+                body: sprites/ai/pozdnyakov.png
+                
+                    
+        kiru:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0
+              parts:
+                body: sprites/ai/kirju.png
+                
+        mem:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0
+              parts:
+                body: sprites/ai/memcho.png
+                
+        wuwa:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0
+              parts:
+                body: sprites/ai/wuwa.png
+                
+        rise:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0
+              parts:
+                body: sprites/ai/rise.png
+                
+        sn:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0
+              parts:
+                body: sprites/ai/sanya.png
+               
+        mar:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0 
+              parts:
+                body: sprites/ai/mar.png
+                
+                    
+                
+        adidas:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0
+              parts:
+                body: sprites/ai/adidas.png
+                
+        pozdfar:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0
+              parts:
+                body: sprites/ai/pozdfar.png
+                
+                    
+        majima:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0
+              parts: 
+                body: sprites/ai/majima.png
+                
+        camel:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0
+              parts:
+                body: sprites/ai/camel.png
+        kol:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0
+              parts:
+                body: sprites/ai/kol.png
+        tanch:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0
+                cright: . 0.0
+              parts:
+                body: sprites/ai/tanchik.png
+               
+        naoto:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0
+              parts:
+                body: sprites/ai/naoto.png
+                
+        kuze:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0
+              parts:
+                body: sprites/ai/kuze.png
+        
+        minet:
+           poses:
+             front_1:
+               sizes:
+                 normal: 1 1
+               positions:
+                 center: . 0.0
+                 right: . 0.0
+                 left: . 0.0
+                 cright: . 0.0
+                 cleft: . 0.0
+               parts:
+                 body: sprites/ai/mine.png
+                 
+        maddy:
+          poses:
+            front_1:
+              sizes:
+                normal: 1 1
+              positions:
+                center: . 0.0
+                right: . 0.0
+                left: . 0.0
+              parts:
+                body: sprites/ai/iluhamad.png
+                
+                
+         
+        
+        
+
+  bg:
+    menu_bg: bg/menu_bg.png
+    ext_aidpost_day: bg/ext_aidpost_day.jpg
+    ext_aidpost_night: bg/ext_aidpost_night.jpg
+    ext_bathhouse_night: bg/ext_bathhouse_night.jpg
+    ext_beach_day: bg/ext_beach_day.jpg
+    ext_beach_night: bg/ext_beach_night.jpg
+    ext_beach_sunset: bg/ext_beach_sunset.jpg
+    ext_boathouse_day: bg/ext_boathouse_day.jpg
+    ext_boathouse_night: bg/ext_boathouse_night.jpg
+    ext_bus: bg/ext_bus.jpg
+    ext_bus_night: bg/ext_bus_night.jpg
+    ext_camp_entrance_day: bg/ext_camp_entrance_day.jpg
+    ext_camp_entrance_night: bg/ext_camp_entrance_night.jpg
+    ext_clubs_day: bg/ext_clubs_day.jpg
+    ext_clubs_night: bg/ext_clubs_night.jpg
+    ext_dining_hall_away_day: bg/ext_dining_hall_away_day.jpg
+    ext_dining_hall_away_night: bg/ext_dining_hall_away_night.jpg
+    ext_dining_hall_away_sunset: bg/ext_dining_hall_away_sunset.jpg
+    ext_dining_hall_near_day: bg/ext_dining_hall_near_day.jpg
+    ext_dining_hall_near_night: bg/ext_dining_hall_near_night.jpg
+    ext_dining_hall_near_sunset: bg/ext_dining_hall_near_sunset.jpg
+    ext_house_of_dv_day: bg/ext_house_of_dv_day.jpg
+    ext_house_of_dv_night: bg/ext_house_of_dv_night.jpg
+    ext_house_of_mt_day: bg/ext_house_of_mt_day.jpg
+    ext_house_of_mt_night: bg/ext_house_of_mt_night.jpg
+    ext_house_of_mt_night_without_light: bg/ext_house_of_mt_night_without_light.jpg
+    ext_house_of_mt_sunset: bg/ext_house_of_mt_sunset.jpg
+    ext_house_of_sl_day: bg/ext_house_of_sl_day.jpg
+    ext_house_of_un_day: bg/ext_house_of_un_day.jpg
+    ext_houses_day: bg/ext_houses_day.jpg
+    ext_houses_night: bg/ext_houses_night.jpg
+    ext_houses_sunset: bg/ext_houses_sunset.jpg
+    ext_island_day: bg/ext_island_day.jpg
+    ext_island_night: bg/ext_island_night.jpg
+    ext_library_day: bg/ext_library_day.jpg
+    ext_library_night: bg/ext_library_night.jpg
+    ext_musclub_day: bg/ext_musclub_day.jpg
+    ext_no_bus: bg/ext_no_bus.jpg
+    ext_no_bus_night: bg/ext_no_bus_night.jpg
+    ext_no_bus_sunset: bg/ext_no_bus_sunset.jpg
+    ext_old_building_night: bg/ext_old_building_night.jpg
+    ext_old_building_night_moonlight: bg/ext_old_building_night_moonlight.jpg
+    ext_path2_day: bg/ext_path2_day.jpg
+    ext_path2_night: bg/ext_path2_night.jpg
+    ext_path_day: bg/ext_path_day.jpg
+    ext_path_night: bg/ext_path_night.jpg
+    ext_path_sunset: bg/ext_path_sunset.jpg
+    ext_playground_day: bg/ext_playground_day.jpg
+    ext_playground_night: bg/ext_playground_night.jpg
+    ext_polyana_day: bg/ext_polyana_day.jpg
+    ext_polyana_night: bg/ext_polyana_night.jpg
+    ext_polyana_sunset: bg/ext_polyana_sunset.jpg
+    ext_road_day: bg/ext_road_day.jpg
+    ext_road_night: bg/ext_road_night.jpg
+    ext_road_night2: bg/ext_road_night2.jpg
+    ext_road_sunset: bg/ext_road_sunset.jpg
+    ext_square_day: bg/ext_square_day.jpg
+    ext_square_day_city: bg/ext_square_day_city.jpg
+    ext_square_night: bg/ext_square_night.jpg
+    ext_square_night_party: bg/ext_square_night_party.jpg
+    ext_square_night_party2: bg/ext_square_night_party2.jpg
+    ext_square_sunset: bg/ext_square_sunset.jpg
+    ext_stage_big_night: bg/ext_stage_big_night.jpg
+    ext_stage_normal_day: bg/ext_stage_normal_day.jpg
+    ext_stage_normal_night: bg/ext_stage_normal_night.jpg
+    ext_washstand2_day: bg/ext_washstand2_day.jpg
+    ext_washstand_day: bg/ext_washstand_day.jpg
+    int_aidpost_day: bg/int_aidpost_day.jpg
+    int_aidpost_day_apple: bg/int_aidpost_day_apple.jpg
+    int_aidpost_night: bg/int_aidpost_night.jpg
+    int_bus_black: bg/int_bus_black.jpg
+    int_bus_night: bg/int_bus_night.jpg
+    int_bus_people_day: bg/int_bus_people_day.jpg
+    int_bus_people_night: bg/int_bus_people_night.jpg
+    int_catacombs_door: bg/int_catacombs_door.jpg
+    int_catacombs_entrance: bg/int_catacombs_entrance.jpg
+    int_catacombs_hole: bg/int_catacombs_hole.jpg
+    int_catacombs_living: bg/int_catacombs_living.jpg
+    int_catacombs_living_nodoor: bg/int_catacombs_living_nodoor.jpg
+    int_clubs_male2_night: bg/int_clubs_male2_night.jpg
+    int_clubs_male2_night_nolight: bg/int_clubs_male2_night_nolight.jpg
+    int_clubs_male_day: bg/int_clubs_male_day.jpg
+    int_clubs_male_sunset: bg/int_clubs_male_sunset.jpg
+    int_dining_hall_day: bg/int_dining_hall_day.jpg
+    int_dining_hall_night: bg/int_dining_hall_night.jpg
+    int_dining_hall_people_day: bg/int_dining_hall_people_day.jpg
+    int_dining_hall_sunset: bg/int_dining_hall_sunset.jpg
+    int_house_of_dv_day: bg/int_house_of_dv_day.jpg
+    int_house_of_dv_night: bg/int_house_of_dv_night.jpg
+    int_house_of_mt_day: bg/int_house_of_mt_day.jpg
+    int_house_of_mt_night: bg/int_house_of_mt_night.jpg
+    int_house_of_mt_night2: bg/int_house_of_mt_night2.jpg
+    int_house_of_mt_noitem_night: bg/int_house_of_mt_noitem_night.jpg
+    int_house_of_mt_sunset: bg/int_house_of_mt_sunset.jpg
+    int_house_of_sl_day: bg/int_house_of_sl_day.jpg
+    int_house_of_un_day: bg/int_house_of_un_day.jpg
+    int_house_of_un_night: bg/int_house_of_un_night.jpg
+    int_liaz: bg/int_liaz.jpg
+    int_library_day: bg/int_library_day.jpg
+    int_library_night: bg/int_library_night.jpg
+    int_library_night2: bg/int_library_night2.jpg
+    int_mine: bg/int_mine.jpg
+    int_mine_coalface: bg/int_mine_coalface.jpg
+    int_mine_crossroad: bg/int_mine_crossroad.jpg
+    int_mine_door: bg/int_mine_door.jpg
+    int_mine_exit_night_light: bg/int_mine_exit_night_light.jpg
+    int_mine_exit_night_nolight: bg/int_mine_exit_night_nolight.jpg
+    int_mine_exit_night_torch: bg/int_mine_exit_night_torch.jpg
+    int_mine_halt: bg/int_mine_halt.jpg
+    int_mine_room: bg/int_mine_room.jpg
+    int_musclub_day: bg/int_musclub_day.jpg
+    int_old_building_night: bg/int_old_building_night.jpg
+    d1_food_normal: bg/d1_food_normal.jpg
+    d2_miku_piano2: cg/d2_miku_piano2.jpg
+    d2_miku_piano: cg/d2_miku_piano.jpg
+    d6_dance_alt_7dl: cg/d6_dance_alt_7dl.jpg
+    d3_sl_dance: cg/d3_sl_dance.jpg
+    libsl: cg/d3_sl_library.jpg
+    buspeople: cg/int_bus_people_day.jpg
+    miokno: cg/mi_bus_tw_01.jpg
+    mibus: cg/d1_mi_bus2_7dl.jpg
+    mibus2: cg/d1_mi_bus_7dl.jpg
+    mirun: cg/d19_miku_bus_1.jpg
+    mirun2: cg/d19_miku_bus_2.jpg
+    mirun3: cg/d19_miku_bus_3.jpg
+    baday: bg/bashenki_day.jpg
+    banight: bg/bashenki_sunset.jpg
+    unbook: cg/d1_un_book_7dl1.jpg
+    unread: cg/d1_un_read.jpg
+    unread2: cg/d1_un_read2.jpg
+    lenaly: cg/un_unconscious.jpg
+    kunh: bg/int_kitchen_day.png
+    majimapozd: cg/majimaandpozd.png
+    int_house_of_sl_night: bg/int_house_of_sl_night.jpg
+    roofdr: kuzedream/roof_dr.png
+    
+    
+    
+   
+    
+    
+  sound:
+    engine: ambience/engine_truck.mp3
+    att: music/attestat.mp3
+    begin: music/begin.mp3
+    yam: music/yamayka.mp3
+    hitt: sfx/udar.mp3
+    churka: music/churka_fight.mp3
+    shiko: music/Fabitekk — Shikonoko x Outlaw (www.lightaudio.ru).mp3
+    hell: sfx/cascream.mp3
+    sru: sfx/diarrhea.mp3
+    gmv: sfx/gmv.mp3
+    ashab: sfx/ashabv.mp3
+    seriym: sfx/seriymon.mp3
+    BFmusic: music/BF.mp3
+    clubmusic: music/clubmusic.mp3
+    moskau: music/Rammstein - Moskau.mp3
+    eos: music/eos.mp3
+    eli: sfx/eli.mp3
+    dobr: sfx/dobroedelo.mp3
+    pasham: sfx/pasham.mp3
+    dum: sfx/dumat.mp3
+    vertm: music/vertm.mp3
+    vzr: sfx/vzriv.mp3
+    outro: music/Caramella Girls - Caramelldancing.mp3
+    cyberkomamb: ambience/cyberkomamb.mp3
+    startm: music/start.mp3
+    arab: sfx/arab.mp3
+    jess: music/jess.mp3
+    trevoga: music/trevoga.mp3
+    hill: music/hillclimb.mp3
+    udar2: sfx/udar2.mp3
+    mism: music/miside.mp3
+    pidori: music/pidori.mp3
+    pvz: music/08. Watery Graves (slow).mp3
+    rdr: music/rdr.mp3
+    whistle: music/whistle.mp3
+    ets: music/ets.mp3
+    pyala: music/huyna.mp3
+    mlp: music/mlp.mp3
+    mama: music/mama.mp3
+    nihuya: sfx/nihuya.mp3
+    zivert: music/Zivert_-_Mozhno_vsjo_61230957.mp3
+    kafe: music/kafe.mp3
+    clubda: music/clubeshnik.mp3
+    intro: music/intro.mp3
+    miy: music/sinmiyagi.mp3
+    real: music/realhero.mp3
+    intern: music/intern.mp3
+    search: music/search.mp3
+    rel: sfx/reload.mp3
+    iwasmade: music/iwasmade.mp3
+    horn: music/horn.ogg
+    dinning: ambience/dining_hall_full.ogg
+    cops: music/cops.mp3
+    baibai: music/baibai.mp3
+    crazy: music/crazy.mp3
+    final: music/final.mp3
+    landishi: music/landishi.mp3
+    vibe: music/vibe.mp3
+    sept: music/sept.mp3
+    bonfire: music/bonfire.mp3
+    met: music/met.mp3
+    ootm: music/ootm.mp3
+    veneno: music/veneno.mp3
+    bb: music/breakingbad.mp3
+    roblox: music/roblox.mp3
+    awp: sfx/awp.mp3
+    kal: sfx/kalitka.mp3
+    zero: music/1800.mp3
+    m60: sfx/m60.MP3
+    endfire: sfx/endfire.MP3
+    bell: sfx/taco-bell-bong-sfx.mp3
+    elpe: music/jesttrek.mp3
+    gtkmb: music/get_to_know_me_better.ogg
+    est: music/eat_some_trouble.ogg
+    itu: music/into_the_unknown.ogg
+    justthink: music/just_think.ogg
+    notresspassing: music/no_tresspassing.ogg
+    mudropizdec: music/Shadow Fight 2 OST — Training Room Menu (www.lightaudio.ru).mp3
+    zamesepic: music/Electric Guitar Cover — Shadow Fight 2 Lynx Soundtrack Battle Music (www.lightaudio.ru).mp3
+    shortsgimn: music/shortsgimn.mp3
+    amarock: music/rockstarpopstar.mp3
+    jambo: music/jambo.mp3
+    veseluha: music/veseluhapizda.ogg
+    monoch: music/monochrome.mp3
+    prl: music/portal.mp3
+    idk: music/Erika_-_I_Dont_Know_Speed_UP_Tik_Tok_79336156.mp3
+    alanwalker: music/Alan Walker Spectre.mp3
+    apromise: music/a_promise_from_distant_days.ogg
+    danceoffire: music/dance_of_fireflies.ogg
+    goat: music/goat.mp3
+    velvet: music/velvet.mp3
+    paren: sfx/paren.MP3
+    cho: sfx/cho.MP3
+    lbf: music/lets_be_friends.ogg
+    maxtheme: music/Max Theme.mp3
+    sovidol: sfx/0121.MP3
+    hmpunch: music/hotline-miami-punch.mp3
+    sgbc: music/so_good_to_be_careless.ogg
+    exped: music/exped.mp3
+    koshka: sfx/putin.mp3
+    sdohla: sfx/putinn.mp3 
+    gotovka: sfx/kuhnyaebat.mp3
+    lake_day: ambience/lake_shore_day.ogg
+    bodyfall: sfx/bodyfall_1.ogg
+    my_daily_life: music/my_daily_life.ogg
+    smooth_machine: music/smooth_machine.ogg
+    kuzfight: kuzedream/kuzefight.mp3
+    bakakuze: kuzedream/bakakuze.mp3
+    pipehit: kuzedream/pipehit.mp3
+    niggaigor: sfx/alarm.ogg
+    pidoras: sfx/posholnahui.mp3
+    joy: music/joy.mp3
+    btss: music/riseta.mp3
+    alicia: music/alicia.ogg
+    
+  chibis: 
+    colt: chibis/colt.png
+    
+    
+  help:
+    credits: 
+        <line-height=50%><style="credits-head">Главный разработчик:</style>
+        <style="credits-name">Саня Альцгеймер</style>
+        
+       
+       
+        <line-height=50%><style="credits-head">Работа с БГ и ЦГ:</style>
+        <style="credits-name">Mikleo</style>
+        
+        
+        <line-height=50%><style="credits-head">Второй сценарист:</style>
+        <style="credits-name">Петька Иванович</style>
+
+                 
+        <line-height=50%><style="credits-head">Передаём спасибо:</style>        
+        <style="credits-name">std Launder(первый донатер)</style>
+        
+        <style="credits-name">Озоза или Михаил</style>
+        
+        <style="credits-name">LMR Scenario Editor</style>
+        
+        <style="credits-name">Блядушник</style>
+        
+        <style="credits-name">Игорь(Kennex)</style>
+        
+        <style="credits-name">Wonder(Никита)</style>
+        
+        <style="credits-name">-Milky_way-</style>
+        
+        <style="credits-name">Dregas (Shit)</style>
+        
+        <style="credits-name">Таня(llka)</style>
+        
+        <style="credits-name">Андрейка (За Call of Duty Black Ops 3 и Cold War)</style>
+        
+        <style="credits-name">П-чан(GitHub)</style>
+        
+        <style="credits-name">Ну и всем тем кто на дискорд сервер залетает</style>
+        
+        
+        
+        
+        
+        
+      
+        <style="credits-name">АХАХАХАХАХА Я ГЕЙ Я ПИДОР Я ПРОЕБАЛСЯ СО ВРЕМЕНЕМ П-ЧАН ШЕЛУХА САНЯ СМЕНАСТОРОН ПЕНИС ПЕНИС</style> 
+    
+  variables:
+    bolen: false
+    lp_soup: 0
+    lp_uk: 0
+    
+    
+  narrators:
+  
+    tn: 
+      name: "Таня"
+      advColor: "#ffa500"
+      nvlColor: "#ffa500"
+      simpleAdv: false
+  
+    sn:
+      name: "Саня"
+      advColor: "#008000"
+      nvlColor: "#008000"
+      simpleAdv: false
+      
+    sr:
+      name: "Вова Адидас"
+      advColor: "#808080"
+      nvlColor: "#808080"
+      simpleAdv: false
+      
+    ch:
+      name: "Алексей Геннадьевич"
+      advColor: "#42aaff"
+      nvlColor: "#42aaff" 
+      simpleAdv: false
+    
+    nk:
+     name: "Никита"
+     advColor: "#964b00"  
+     nvlColor: "#964b00"
+     simpleAdv: false
+     
+    pd:
+     name: "Продавец"
+     advColor: "#ffa500"
+     nvlColor: "#ffa500" 
+     simpleAdv: false
+     
+    at:
+     name: "Игорь"
+     advColor: "#964b00"
+     nvlColor: "#964b00"
+     simpleAdv: false 
+    
+    loh:
+      name: "Лёшка"
+      advColor: "#b2ff99"
+      nvlColor: "#b2ff99"
+      simpleAdv: true
+      
+    gug:
+      name: "Аслан Гугаев"
+      advColor: "#42aaff"
+      nvlColor: "#42aaff"
+      simpleAdv: false
+      
+    pet:
+      name: "Петька"
+      advColor: "#7F6A33FF"
+      nvlColor: "#7F6A33FF"
+      simpleAdv: false
+    
+    teh:
+      name: "Паша Техник"
+      advColor: "#ffa500"
+      nvlColor: "#ffa500"
+      simpleAdv: false
+      
+    van:
+      name: "Ваня"  
+      advColor: "#42aaff" 
+      nvlColor: "#42aaff"
+      simpleAdv: false
+      
+    kiru:
+      name: "Кирью" 
+      advColor: "#b00000"
+      nvlColor: "#b00000"
+      simpleAdv: false
+    
+    ash:
+      name: "Асхаб" 
+      advColor: "#77DDE7"
+      nvlColor: "#77DDE7"
+      simpleAdv: false
+    
+    bab:
+      name: "Бабка"
+      advColor:
+      nvlColor:  
+      simpleAdv: false
+    
+    tan:
+      name: "Танос"
+      advColor: "#77DDE7"
+      nvlColor: "#77DDE7"
+      simpleAdv: false
+      
+    tan2:
+      name: "Танчик"
+      advColor: "#77DDE7"
+      nvlColor: "#77DDE7"
+      simpleAdv: true
+      
+    
+    bil:
+      name: "Билли" 
+      advColor: "#77DDE7"
+      nvlColor: "#77DDE7"
+      simpleAdv: false
+      
+    big:
+      name: "BigBlackPensil"
+      advColor: "#7F6A33FF"
+      nvlColor: "#7F6A33FF"
+      simpleAdv: false
+      
+    mam:
+     name: "Мама"
+     advColor: "#91483CFF"
+     simpleAdv: false
+     
+    luri:
+      name: "Люри"
+      advColor: "#ED9F4BFF"
+      simpleAdv: false
+      
+    ukiko:
+      name: "Юкико"
+      advColor: "#5B5F8EFF"
+      simpleAdv: false
+      
+    us:
+      name: "Ульяна"
+      advColor: "#ff0000"
+      simpleAdv: false
+      
+    maj:
+      name: "Маджима"
+      advColor: "#EF8716"  
+      simpleAdv: false
+      
+    pch:
+      name: "П-чан"
+      advColor: "#77DDE7"
+      simpleAdv: false
+      
+    camel:
+      name: "Камелия"
+      advColor: "#30d5c8"
+      simpleAdv: false
+      
+    lit:
+      name: "Миша Литвин"
+      advColor: "#42aaff"
+      simpleAdv: false
+      
+    ww:
+      name: "Владимир Витальевич"
+      advColor: "#7F6A33FF"
+      simpleAdv: false
+      
+    poz:
+      name: "Поздняков"
+      advColor: "#964b00" 
+      simpleAdv: false
+      
+    mar:
+      name: "Макар"
+      advColor: "#964b00"
+      simpleAdv: false
+      
+    lun:
+      name: "Лунтик"
+      advColor: "#FFC0CB"
+      simpleAdv: false
+      
+    mem:
+      name: "Мем-чо"
+      advColor: "#A64B00"
+      simpleAdv: false
+      
+    all:
+      name: "Все"
+      advColor: "#ffffff"
+      simpleAdv: true
+      
+    igor:
+     name: "Игорь"
+     advColor: "#964b00"
+     nvlColor: "#964b00"
+     simpleAdv: false 
+    
+    rise:
+      name: "Рисэ"
+      advColor: "#FF66B2"
+      nvlColor: "#FFD84A"
+      simpleAdv: false
+      
+    naoto:
+      name: "Наото"
+      advColor: "#6FA8FF"
+      nvlColor: "#6FA8FF"
+      simpleAdv: false
+      
+    kuze:
+      name: "Кузэ"
+      advColor: "#ffa500"
+      nvlColor: "#ffa500"
+      simpleAdv: false
+      
+    minecraft:
+      name: "Минэ"
+      advColor: "#302d2e"
+      simpleAdv: false
+      
+    ken:
+     name: "///Kenexx///"
+     advColor: "#964b00"
+     simpleAdv: false
+     
+    pch2:
+      name: "///P-chan///"
+      advColor: "#77DDE7"
+      simpleAdv: false
+      
+    Mady:
+      name: "Илюха Мэд"
+      advColor: "#FF66B2"
+      simpleAdv: false
+      
+    agap:
+      name: "Agape_"
+      advColor: "#77DDE7"
+      simpleAdv: false
+      
+    
+      
+     
+  notes:
+    note1: "Сразу скажу, всё что вы видите написанным -вот так- это мысли главного героя(да мне было лень писать отдельный блок нарратора с названием Мысли. Идите нахуй.)."
+    note2: "Я ТУТ БЛЯТЬ ПОДЫХАЮ НАХУЙ, У МЕНЯ ЖАРА +47 ДНЁМ И +35 НОЧЬЮ ЭТО ПРОСТО ПИЗДА, В ПРОШЛОМ ГОДУ ТАКОГО НЕ БЫЛО."
+    note3: "Таня, если ты читаешь этот мод, то прочитай и это пожалуйста: ТЫ ВЫБРАЛА МАКСИМАЛЬНО УЕБАНСКИЙ СПРАЙТ! УБИТЬ ТЕБЯ МАЛО НАХУЙ! Добро и позитив, всё хорошо, всё нормально."
+    note4: "ICQ (от англ. I seek you — «я ищу тебя») — существовавшая в 1996–2024 годах бесплатная кроссплатформенная система мгновенного обмена сообщениями, для мобильных устройств и персональных компьютеров. Позволяла пересылать текстовые сообщения, изображения, видео и аудио через Интернет. В русском компьютерном сленге сервис называли «аськой»"
+    note5: "Настоящее имя Егора Летова - Игорь.(канонично получается). Летов родился 10 сентября 1964 года в СССР, советский и российский музыкант, певец, поэт. Летов по мимо мызуки занимался политической деятельностью меняя свои политические взгляды, принимал участие в создании скандальной Национал-большевисткой партии (НБП) Которая позже была запрещена на территории России. КГБ не понравились произведения Гражданской Обороны, в результате осенью 1985 года Летова отправили на принудительное лечение в психбольницу. Биографию по приколу написал."
+    note6: "Ви чат или же на английском WeChat, является  китайским мессенджером, в котором интегрированы сщциальные сети FaceBook и Tencent QQ, так же внутри этой системы можно проводит денежные транзакции и его используют для подтверждения личности при пересечении границы между Китаем и Макао ил и Гонконгом. (Ну представте. Сбербанк в который запихнули и ГосУслуги, и Дискорд, и Телеграм)."
+    note7: "Дропкик - это удар вперед ногами,используют в рестлинге так дже у дропкика есть разновидности такие как: передний дропкик - когда удар наносится пятками и не вращаясь при этом такой удар обычно наносится в нижнию часть противника, Нижний дропкик - этот делается или сразу или после того как оттолкнулся от канатов, такие дропкики наносят в грудь или в бок оппонента.(Ну тот же самый удар двумя ногами Кайла Крейна из Dying Light)."
+    note8: "Ну на самом деле в момент разработки Даня мне всё же сказал значение этого ника. Он сказал что имя из игры Needy Streamer Overload, но этой инфы было мало и я полез бороздить просторы интернета, и понял что это - имя главного героя, либо я слишком тупой чтобы понять это."
+    
+    
+  
